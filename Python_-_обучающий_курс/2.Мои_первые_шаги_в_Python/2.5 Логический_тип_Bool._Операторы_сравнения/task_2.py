@@ -7,8 +7,8 @@
 #Sample Output:True
 
 # put your python code here
-x = float(input())
 import math
+x = float(input())
 
 y = math.trunc(x)
 c = (x - y) > 0.50
