@@ -5,7 +5,6 @@
 # Sample Input:20
 # Sample Output:27
 # ввод данных
-import math
 x = int(input())
 x = x-x/10
 print(int(500//x))
