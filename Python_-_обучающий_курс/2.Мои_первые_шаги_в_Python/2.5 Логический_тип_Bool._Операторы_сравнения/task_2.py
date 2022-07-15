@@ -12,3 +12,6 @@
 # put your python code here
 import math
 x = float(input())
+y = math.trunc(x)
+c = ((x - y) > 0.50)
+print(c)
