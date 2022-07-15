@@ -12,7 +12,3 @@
 # put your python code here
 a, b = map(int, input().split())
 print(a % b == 0)
-
-y = math.trunc(x)
-c = (x - y) > 0.50
-print(c)
