@@ -1,3 +1,3 @@
 # Задача по программированию:Hello,%username!
-name = input('Введите имя:')
+name = input()
 print('Hello, ' + name + '!')
