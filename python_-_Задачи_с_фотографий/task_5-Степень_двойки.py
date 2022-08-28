@@ -4,4 +4,4 @@
 # Вывод данных:4
 
 a = int(input())
-print(a ** 2)
+print(2 ** a)
