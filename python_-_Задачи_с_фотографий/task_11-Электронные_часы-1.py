@@ -2,7 +2,12 @@
 
 # Вывод программы:2 30
 
-a = int(input())
-h = a % (60 * 24) // 60
-m = a % 60
-print(h, m)
+n = int(input())
+if n < 1440:
+    print (n // 60)
+    print (n % 60)
+else:
+    a = 1440 - n
+    a *= -1
+    print(a // 60)
+    print (a % 60)
