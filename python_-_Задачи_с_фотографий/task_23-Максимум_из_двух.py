@@ -7,4 +7,5 @@
 
 a = int(input())
 b = int(input())
-print(max(a, b))
+x = abs(a - b)
+print((a + b - x) // 2 + x)
